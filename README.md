@@ -1,4 +1,6 @@
-# Experiment--03-Half-Subtractor-and-Full-subtractor
+# Experiment--04-Half-Subtractor-and-Full-subtractor
+# Name:vignesh.v
+# Reference number:23004027
 ## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
 ## AIM:
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
@@ -26,29 +28,48 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
+1.Use module projname(input,output) to start the Verilog programmming.
+
+2.Assign inputs and outputs using the word input and output respectively.
+
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
+
+4.Use each output to represnt onre for differnce and the other for borrow.
+
+5.End the verilog program using keyword endmodule
 
 
 
-Write the detailed procedure here 
 
 
 ## Program:
-/*
-Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+# Half Subtracter:
+![WhatsApp Image 2023-12-29 at 22 54 09_26105274](https://github.com/23004027/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/138956447/c7827502-1498-4b6f-8835-88d8a1241e9b)
+
+# Full Subtracter:
+![WhatsApp Image 2023-12-29 at 22 55 13_834f9799](https://github.com/23004027/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/138956447/28270718-2e80-412a-b90f-c4a919b227b6)
+
+# Truthtable:
+# Half Subtracter:
+![WhatsApp Image 2023-12-29 at 22 57 48_5ffb71c2](https://github.com/23004027/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/138956447/a3f8d7b2-a54c-4a8d-adbe-4019c287fd49)
+
+# Full Subtracter:
+![WhatsApp Image 2023-12-29 at 22 57 48_7fdeaf1e](https://github.com/23004027/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/138956447/e74dafc9-f89b-4256-994d-2ce6a4171c58)
+
+### RTL realization:
+# Half Subtracter:
+![WhatsApp Image 2023-12-29 at 22 57 48_ab153138](https://github.com/23004027/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/138956447/9928203d-2782-41f8-87bb-747fe27063dd)
+
+# Full Subtracter:
+![WhatsApp Image 2023-12-29 at 22 57 49_3d1691a6](https://github.com/23004027/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/138956447/8b792f6e-17d0-4edc-a90d-e594c59fe3e9)
 
 ## Output:
+# Half Subtracter:
+![WhatsApp Image 2023-12-29 at 22 57 07_f350bdfd](https://github.com/23004027/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/138956447/f7932ef2-1474-4f70-b433-1f93c78ca3a3)
 
-## Truthtable
+# Full Subtracter:
+![WhatsApp Image 2023-12-29 at 22 57 08_5856f047](https://github.com/23004027/Experiment--04-Half-Subtractor-and-Full-subtractor/assets/138956447/d5ceff0a-96f1-4b4f-9ae2-69e03b914831)
 
-
-
-##  RTL realization
-
-
-## Timing diagram 
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
