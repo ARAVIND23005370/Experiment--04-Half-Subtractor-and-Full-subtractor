@@ -1,6 +1,6 @@
 # Experiment--04-Half-Subtractor-and-Full-subtractor
-# Name:vignesh.v
-# Reference number:23004027
+# Name:ARAVIND R
+# Reference number:23005370
 ## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
 ## AIM:
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
